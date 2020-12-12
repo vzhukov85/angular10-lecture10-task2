@@ -182,22 +182,42 @@ const homework3: Homework = {
     {
       num: 1,
       projectName: 'angular10-lecture3-task1',
+      links: ['https://stepansuvorov.com/blog/2016/11/angular2-component-life-cycle/ ',
+      'https://webdraftt.com/tutorial/component-lifecycle ',
+      'https://xsltdev.ru/angular/tutorial/component-lifecycle/']
+    },
+    {
+      num: 2,
+      links: ['http://coldfox.ru/article/5b28023900677f14ad353eec/%D0%94%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D1%8B-%D0%B2-Angular ',
+      'https://metanit.com/web/angular2/3.2.php']
+    },
+    { num: 3,
+      links: ['http://coldfox.ru/article/5b28023900677f14ad353eec/%D0%94%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D1%8B-%D0%B2-Angular',
+      'https://metanit.com/web/angular2/3.3.php']
     },
     {
       num: 4,
       projectName: 'angular10-lecture3-task4',
+      links: ['https://metanit.com/web/angular2/2.9.php']
     },
     {
       num: 5,
       projectName: 'angular10-lecture3-task5',
+      links: ['https://material.angular.io/guide/getting-started',
+      'https://material.angular.io/components/categories',
+      'https://www.youtube.com/embed/rTLwAwwFW0c']
     },
     {
       num: 6,
       projectName: 'angular10-lecture3-task6',
+      links: ['https://ng-bootstrap.github.io/#/getting-started#installation',
+      'https://ng-bootstrap.github.io/#/components/modal/examples',
+      'https://www.youtube.com/embed/1O0oHzu6xYA']
     },
     {
       num: 7,
       projectName: 'angular10-lecture3-task7',
+      links: ['https://material.angular.io/components/autocomplete/examples']
     },
     {
       num: 8,
@@ -206,6 +226,7 @@ const homework3: Homework = {
     {
       num: 9,
       projectName: 'angular10-lecture3-task9',
+      links: ['https://github.com/text-mask/text-mask/tree/master/angular2/example']
     },
   ],
 };
@@ -214,8 +235,34 @@ const homework4: Homework = {
   num: 4,
   tasks: [
     {
+      num: 1,
+      links: ['https://metanit.com/web/angular2/3.5.php',
+              'http://coldfox.ru/article/5b28023900677f14ad353eec/%D0%94%D0%B8%D1%80%D0%B5%D00%BA%D1%82%D0%B8%D0%B2%D1%8B-%D0%B2-Angular'
+            ]
+    },
+    {
+      num: 2,
+      links: [
+        'http://coldfox.ru/article/5b28023900677f14ad353eec/%D0%94%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D1%8B-%D0%B2-Angular',
+        'https://metanit.com/web/angular2/3.6.php',
+        'https://xsltdev.ru/angular/tutorial/custom-directives/',
+        'https://webdraftt.com/tutorial/custom-directives'
+      ]
+    },
+    {
       num: 3,
       projectName: 'angular10-lecture4-task3',
+      links: [
+        'http://coldfox.ru/article/5b28023900677f14ad353eec/%D0%94%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D1%8B-%D0%B2-Angular',
+        'https://metanit.com/web/angular2/3.6.php'
+      ]
+    },
+    {
+      num: 4,
+      links: [
+        'http://coldfox.ru/article/5b28023900677f14ad353eec/%D0%94%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D1%8B-%D0%B2-Angular',
+        'https://metanit.com/web/angular2/3.6.php'
+      ]
     },
     {
       num: 5,
@@ -228,16 +275,31 @@ const homework4: Homework = {
     {
       num: 7,
       projectName: 'angular10-lecture4-task7',
+      links: [
+        'http://coldfox.ru/article/5b28023900677f14ad353eec/%D0%94%D0%B8%D1%80%D0%B5%D0%BA%D1%82%D0%B8%D0%B2%D1%8B-%D0%B2-Angular',
+        'https://metanit.com/web/angular2/3.6.php'
+      ]
     },
   ],
 };
 
 const homework5: Homework = {
   num: 5,
+  links: ['https://www.youtube.com/embed/esWI7GD72Ok',
+          'https://xsltdev.ru/angular/tutorial/angular-services/',
+          'https://xsltdev.ru/angular/tutorial/dependency-injection/',
+          'https://angular-doc.ru/tutorial/toh-pt4',
+          'https://angular.io/guide/dependency-injection-in-action',
+          'https://angular.io/api/core/Host'
+          ],
   tasks: [
     {
       num: 6,
       projectName: 'angular10-lecture5-task6',
+      links: ['https://metaschool.ru/pub/games/bulls-and-cows/bulls.php',
+              'https://www.youtube.com/embed/LaUY-qLQy1A',
+              'https://ru.wikipedia.org/wiki/%D0%91%D1%8B%D0%BA%D0%B8_%D0%B8_%D0%BA%D0%BE%D1%80%D0%BE%D0%B2%D1%8B'
+            ]
     },
   ],
 };
@@ -248,12 +310,20 @@ const homework6: Homework = {
     {
       num: 1,
       projectName: 'angular10-lecture6-task1',
+      links: [
+        'https://alytics.ru/blog/blog/7022/'
+      ]
     },
   ],
 };
 
 const homework7: Homework = {
   num: 7,
+  links: [
+    'https://xsltdev.ru/angular/tutorial/angular-forms/',
+    'https://xsltdev.ru/angular/tutorial/angular-reactive-forms/',
+    'https://xsltdev.ru/angular/tutorial/forms-validation/'
+  ],
   tasks: [
     {
       num: 1,
@@ -268,6 +338,16 @@ const homework10: Homework = {
     {
       num: 1,
       projectName: 'angular10-lecture10-task1',
+      links: [
+        'https://jsonplaceholder.typicode.com/users',
+        'https://material.angular.io/components/checkbox/overview',
+        'https://jazzteam.org/ru/technical-articles/restful-services-manual/#:~:text=%D0%92%20REST%20%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D1%8E%D1%82%D1%81%D1%8F%204%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D1%85,%E2%80%93%20update%2C%20DELETE%20%E2%80%93%20delete',
+        'https://jsonplaceholder.typicode.com/',
+        'https://stepansuvorov.com/blog/2017/10/%D0%9A%D0%B0%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82-%D0%BC%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80-angular/',
+        'https://laptrinhx.com/angular-4-x-injector-4146149090/',
+        'https://www.npmjs.com/package/google-maps',
+        'https://www.youtube.com/embed/XgWRKT2SRac'
+      ]
     },
     {
       num: 2,
