@@ -1,0 +1,32 @@
+<div *ngFor="let homework of references">
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>Самостоятельная работа {{ homework.num }}</mat-card-title>
+        <mat-card-subtitle>{{ homework.info }}
+            <mat-list role="list">
+                <mat-list-item *ngFor="let link of homework.links; let i=index" role="listitem">
+                  <a [href]="link">Ссылка {{i +1 }}</a>
+                </mat-list-item>
+            </mat-list>
+        </mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <div *ngFor="let task of homework.tasks">
+          <mat-card>
+              <mat-card-header>
+                  <mat-card-title>Задание № {{ task.num }}</mat-card-title>
+                  <mat-card-subtitle>{{ task.description }}</mat-card-subtitle>
+              </mat-card-header>
+              <mat-card-content>
+                  <mat-list role="list">
+                      <mat-list-item *ngFor="let link of task.links; let i=index" role="listitem">
+                        <a [href]="link">Ссылка {{i +1 }}</a>
+                      </mat-list-item>
+                  </mat-list>
+              </mat-card-content>
+          </mat-card>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  
