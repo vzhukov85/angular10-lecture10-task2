@@ -176,7 +176,116 @@ const homework2: Homework = {
   ],
 };
 
-const homeworks: Homework[] = [homework1, homework2];
+const homework3: Homework = {
+  num: 3,
+  tasks: [
+    {
+      num: 1,
+      projectName: 'angular10-lecture3-task1',
+    },
+    {
+      num: 4,
+      projectName: 'angular10-lecture3-task4',
+    },
+    {
+      num: 5,
+      projectName: 'angular10-lecture3-task5',
+    },
+    {
+      num: 6,
+      projectName: 'angular10-lecture3-task6',
+    },
+    {
+      num: 7,
+      projectName: 'angular10-lecture3-task7',
+    },
+    {
+      num: 8,
+      projectName: 'angular10-lecture3-task8',
+    },
+    {
+      num: 9,
+      projectName: 'angular10-lecture3-task9',
+    },
+  ],
+};
+
+const homework4: Homework = {
+  num: 4,
+  tasks: [
+    {
+      num: 3,
+      projectName: 'angular10-lecture4-task3',
+    },
+    {
+      num: 5,
+      projectName: 'angular10-lecture4-task5',
+    },
+    {
+      num: 6,
+      projectName: 'angular10-lecture4-task6',
+    },
+    {
+      num: 7,
+      projectName: 'angular10-lecture4-task7',
+    },
+  ],
+};
+
+const homework5: Homework = {
+  num: 5,
+  tasks: [
+    {
+      num: 6,
+      projectName: 'angular10-lecture5-task6',
+    },
+  ],
+};
+
+const homework6: Homework = {
+  num: 6,
+  tasks: [
+    {
+      num: 1,
+      projectName: 'angular10-lecture6-task1',
+    },
+  ],
+};
+
+const homework7: Homework = {
+  num: 7,
+  tasks: [
+    {
+      num: 1,
+      projectName: 'angular10-lecture7-task1',
+    },
+  ],
+};
+
+const homework10: Homework = {
+  num: 10,
+  tasks: [
+    {
+      num: 1,
+      projectName: 'angular10-lecture10-task1',
+    },
+    {
+      num: 2,
+      projectName: 'angular10-lecture10-task2',
+    },
+  ],
+};
+
+const homeworks: Homework[] = [
+  homework1,
+  homework2,
+  homework3,
+  homework4,
+  homework5,
+  homework6,
+  homework7,
+  homework10
+];
 
 @Injectable({
   providedIn: 'root',
